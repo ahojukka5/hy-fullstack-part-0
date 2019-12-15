@@ -1,0 +1,12 @@
+selain->palvelin: HTTP POST https://fullstack-exampleapp.herokuapp.com/new_note_spa
+
+note over palvelin:
+Selaimeen ladattu JavaScript-koodi
+tallentaa tiedon palvelimelle.
+end note
+
+palvelin-->selain: Status code 201 (created)
+
+note over selain:
+Selain renderöi uuden tietueen
+end note
